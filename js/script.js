@@ -49,5 +49,7 @@ for ( let i = 0; i < image.length; i++ ) {
   image[i].src = teamMembers[i].img;
 
   // Info
-  //info[i]
+  infoName[i].innerHTML = teamMembers[i].name;
+  infoRole[i].innerHTML = teamMembers[i].role;
+  infoEmail[i].innerHTML = teamMembers[i].email;
 }
