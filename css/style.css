@@ -13,3 +13,9 @@
 .center {
     text-align: center;
 }
+
+/* Team Card */
+.team {
+    justify-content: center;
+    gap: 10px;
+}
