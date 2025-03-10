@@ -42,6 +42,6 @@ const teamMembers = [
 const image = document.getElementsByClassName("image")
 const info = document.getElementsByClassName("info")
 
-for ( let i = 0; i < card.length; i++ ) {
-  
+for ( let i = 0; i < info.length; i++ ) {
+  image[i].src = teamMembers[i].img;
 }
