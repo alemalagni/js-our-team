@@ -14,6 +14,10 @@
     text-align: center;
 }
 
+.pad10 {
+    padding: 10px;
+}
+
 /* Team Card */
 .team {
     justify-content: center;
