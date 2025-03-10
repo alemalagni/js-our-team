@@ -29,13 +29,14 @@ h1 {
 /* Team Card */
 .team {
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .teamCard {
     background-color: darkblue;
     color: white;
+    width: calc( 25% );
 }
 
 .infoName {
