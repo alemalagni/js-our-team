@@ -36,3 +36,12 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+// Script
+
+const leftCard = document.getElementsByClassName("leftCard")
+const rightCard = document.getElementsByClassName("rightCard")
+
+for ( let i = 0; i < card.length; i++ ) {
+  
+}
