@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 /* Utilities classes */
@@ -30,7 +31,8 @@
 }
 
 .infoName {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .infoEmail {
