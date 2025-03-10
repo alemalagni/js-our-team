@@ -19,3 +19,8 @@
     justify-content: center;
     gap: 10px;
 }
+
+.teamCard {
+    background-color: darkblue;
+    color: white;
+}
