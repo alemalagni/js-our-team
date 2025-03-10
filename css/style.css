@@ -24,3 +24,11 @@
     background-color: darkblue;
     color: white;
 }
+
+.infoName {
+    font-size: 20px;
+}
+
+.infoEmail {
+    color: skyblue;
+}
