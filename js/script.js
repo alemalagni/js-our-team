@@ -39,8 +39,8 @@ const teamMembers = [
 
 // Script
 
-const leftCard = document.getElementsByClassName("leftCard")
-const rightCard = document.getElementsByClassName("rightCard")
+const image = document.getElementsByClassName("image")
+const info = document.getElementsByClassName("info")
 
 for ( let i = 0; i < card.length; i++ ) {
   
