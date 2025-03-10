@@ -40,8 +40,14 @@ const teamMembers = [
 // Script
 
 const image = document.getElementsByClassName("image")
-const info = document.getElementsByClassName("info")
+const infoName = document.getElementsByClassName("infoName")
+const infoRole = document.getElementsByClassName("infoRole")
+const infoEmail = document.getElementsByClassName("infoEmail")
 
-for ( let i = 0; i < info.length; i++ ) {
+for ( let i = 0; i < image.length; i++ ) {
+  // Image
   image[i].src = teamMembers[i].img;
+
+  // Info
+  //info[i]
 }
