@@ -57,20 +57,6 @@ function teamCard( img, name, role, email ) {
 
 // Script
 
-// const image = document.getElementsByClassName("image")
-// const infoName = document.getElementsByClassName("infoName")
-// const infoRole = document.getElementsByClassName("infoRole")
-// const infoEmail = document.getElementsByClassName("infoEmail")
-
-// for ( let i = 0; i < image.length; i++ ) {
-//   // Image
-//   image[i].src = teamMembers[i].img;
-
-//   // Info
-//   infoRole[i].innerHTML = teamMembers[i].role;
-//   infoEmail[i].innerHTML = teamMembers[i].email;
-// }
-
 const teamBox = document.getElementById("team")
 
 let teamInfo = "";
