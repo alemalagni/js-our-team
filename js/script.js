@@ -37,19 +37,45 @@ const teamMembers = [
   }
 ];
 
+// Function
+function teamCard( img, name, role, email ) {
+  return `
+    <div class="teamCard flex">
+
+                <div style="flex-basis: 100px;">
+                    <img src="${img}" alt="" class="image" style="width: 100%;">
+                </div>
+                <div class="pad10">
+                    <div><span class="infoName">${name}</span></div>
+                    <div><span class="infoRole">${role}</span></div>
+                    <div style="position: relative;top: 10px;">${email}<span class="infoEmail"></span></div>
+                </div>
+
+            </div>
+  `
+}
+
 // Script
 
-const image = document.getElementsByClassName("image")
-const infoName = document.getElementsByClassName("infoName")
-const infoRole = document.getElementsByClassName("infoRole")
-const infoEmail = document.getElementsByClassName("infoEmail")
+// const image = document.getElementsByClassName("image")
+// const infoName = document.getElementsByClassName("infoName")
+// const infoRole = document.getElementsByClassName("infoRole")
+// const infoEmail = document.getElementsByClassName("infoEmail")
 
-for ( let i = 0; i < image.length; i++ ) {
-  // Image
-  image[i].src = teamMembers[i].img;
+// for ( let i = 0; i < image.length; i++ ) {
+//   // Image
+//   image[i].src = teamMembers[i].img;
 
-  // Info
-  infoName[i].innerHTML = teamMembers[i].name;
-  infoRole[i].innerHTML = teamMembers[i].role;
-  infoEmail[i].innerHTML = teamMembers[i].email;
+//   // Info
+//   infoRole[i].innerHTML = teamMembers[i].role;
+//   infoEmail[i].innerHTML = teamMembers[i].email;
+// }
+
+const teamBox = document.getElementById("team")
+
+let teamInfo = "";
+for ( let i = 0; i < 6; i++ ) {
+  teamInfo = teamInfo + teamCard( teamMembers[i].img, teamMembers[i].name, teamMembers[i].role, teamMembers[i].email );
 }
+
+teamBox.innerHTML = teamInfo;
