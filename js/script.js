@@ -59,9 +59,6 @@ function teamCard( img, name, role, email ) {
 
 const teamBox = document.getElementById("team")
 
-let teamInfo = "";
 for ( let i = 0; i < 6; i++ ) {
-  teamInfo = teamInfo + teamCard( teamMembers[i].img, teamMembers[i].name, teamMembers[i].role, teamMembers[i].email );
+  teamBox.innerHTML = teamBox.innerHTML + teamCard( teamMembers[i].img, teamMembers[i].name, teamMembers[i].role, teamMembers[i].email );
 }
-
-teamBox.innerHTML = teamInfo;
